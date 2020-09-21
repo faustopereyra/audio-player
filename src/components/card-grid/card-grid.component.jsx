@@ -8,7 +8,8 @@ const CardGrid = () => {
     return (
         <div className="card-grid" >
             {userBooks ? userBooks.map((book) => (
-                <Card book={book} key={book.id} />
+                !book.finished ?
+                    <Card book={book} key={book.id} /> : ""
             )) : ""}
         </div>
     )

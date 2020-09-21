@@ -3,24 +3,172 @@
         "title": "Thinking Fast and Slow",
         "author": "Daniel Kahneman",
         "imageUrl": "thinking-fast-and-slow.jpg",
-        "id": 1
+        "id": 1,
+        "finished": false,
+        "data": [
+            {
+                "title": "Pensar rápido y despacio: cómo nuestro comportamiento está determinado por dos sistemas diferentes, uno automático y otro considerado.",
+                "content": "Hay un drama convincente en nuestras mentes, una trama cinematográfica entre dos personajes principales con giros, dramas y tensiones. Estos dos personajes son el Sistema 1 impulsivo, automático e intuitivo, y el Sistema 2 reflexivo, deliberado y calculador. A medida que se enfrentan, sus interacciones determinan cómo pensamos, hacemos juicios, decisiones y actuamos.El sistema 1 es la parte de nuestro cerebro que funciona de forma intuitiva y repentina, a menudo sin nuestro control consciente. Puede experimentar este sistema en el trabajo cuando escuche un sonido muy fuerte e inesperado. ¿Qué haces? Probablemente cambie su atención de forma inmediata y automática hacia el sonido. Ese es el Sistema 1. \nEste sistema es un legado de nuestro pasado evolutivo: existen ventajas de supervivencia inherentes al poder realizar acciones y juicios tan rápidos. \nEl sistema 2 es en lo que pensamos cuando visualizamos la parte del cerebro responsable de nuestra toma de decisiones, razonamiento y creencias individuales. Se ocupa de las actividades conscientes de la mente, como el autocontrol, las elecciones y un enfoque de atención más deliberado. \nPor ejemplo, imagina que estás buscando a una mujer entre una multitud. Tu mente se centra deliberadamente en la tarea: recuerda las características de la persona y cualquier cosa que pueda ayudar a localizarla. Este enfoque ayuda a eliminar posibles distracciones y apenas nota a otras personas en la multitud. Si mantienes esta atención enfocada, es posible que la veas en cuestión de minutos, mientras que si estás distraído y pierdes el enfoque, tendrás problemas para encontrarla. \nComo veremos en los siguientes blinks, la relación entre estos dos sistemas determina cómo nos comportamos."
+            },
+            {
+                "title": "La mente perezosa: cómo la pereza puede llevarnos a errores y afectar nuestra inteligencia.",
+                "content": "Para ver cómo funcionan los dos sistemas, intente resolver este famoso problema del bate y la pelota:\nun bate y una pelota cuestan $ 1.10. El bate cuesta un dólar más que la pelota. ¿Cuánto cuesta la pelota?\nEl precio que probablemente le vino a la mente, $ 0.10, es el resultado del intuitivo y automático Sistema 1, ¡y está mal! Tómate un segundo y haz los cálculos ahora.\n¿Ves tu error? La respuesta correcta es $ 0.05.\nLo que sucedió fue que su impulsivo Sistema 1 tomó el control y respondió automáticamente confiando en la intuición. Pero respondió demasiado rápido.\nPor lo general, cuando se enfrenta a una situación que no puede comprender, el Sistema 1 llama al Sistema 2 para resolver el problema, pero en el problema del bate y la pelota, el Sistema 1 es engañado. Percibe el problema como más simple de lo que es y asume incorrectamente que puede manejarlo por sí solo.\nEl problema que expone el problema del bate y la pelota es nuestra innata pereza mental. Cuando usamos nuestro cerebro, tendemos a usar la mínima cantidad de energía posible para cada tarea. Esto se conoce como la ley del mínimo esfuerzo. Debido a que verificar la respuesta con el Sistema 2 consumiría más energía, nuestra mente no lo hará cuando cree que puede arreglárselas con el Sistema 1.\nEsta pereza es desafortunada, porque usar el Sistema 2 es un aspecto importante de nuestra inteligencia. Las investigaciones muestran que la práctica de tareas del Sistema-2, como la concentración y el autocontrol, conduce a puntajes de inteligencia más altos. El problema del bate y la pelota ilustra esto, ya que nuestras mentes podrían haber verificado la respuesta utilizando el Sistema 2 y así evitar cometer este error común.\nAl ser perezoso y evitar usar el Sistema 2, nuestra mente está limitando la fuerza de nuestra inteligencia."
+            },
+            {
+                "title": "Piloto automático: por qué no siempre estamos en control consciente de nuestros pensamientos y acciones.",
+                "content": "¿Qué piensas cuando ves el fragmento de palabra \"SO_A\"? Probablemente nada. ¿Qué pasa si primero considera la palabra \"COMER\"? Ahora, cuando mires de nuevo la palabra \"SO_A\", probablemente la completarías como \"SOPA\". Este proceso se conoce como cebado.\nEstamos preparados cuando la exposición a una palabra, concepto o evento nos hace invocar palabras y conceptos relacionados. Si hubiera visto la palabra \"DUCHA\" en lugar de \"COMER\" arriba, probablemente habría completado las letras como \"JABÓN\".\nTal preparación no solo afecta la forma en que pensamos, sino también la forma en que actuamos. Así como la mente se ve afectada al escuchar ciertas palabras y conceptos, el cuerpo también puede verse afectado. Un gran ejemplo de esto se puede encontrar en un estudio en el que los participantes preparados con palabras asociadas con la edad avanzada, como \"Florida\" y \"arruga\", respondieron caminando a un ritmo más lento de lo habitual.\nIncreíblemente, la preparación de acciones y pensamientos es completamente inconsciente; lo hacemos sin darnos cuenta.\nPor lo tanto, lo que muestra la preparación es que, a pesar de lo que muchos argumentan, no siempre tenemos el control consciente de nuestras acciones, juicios y elecciones. En cambio, estamos constantemente preparados por ciertas condiciones sociales y culturales.\nPor ejemplo, la investigación realizada por Kathleen Vohs demuestra que el concepto de dinero prepara acciones individualistas. Las personas preparadas con la idea del dinero, por ejemplo, al estar expuestas a imágenes de dinero, actúan de manera más independiente y están menos dispuestas a involucrarse, depender o aceptar demandas de otros. Una de las implicaciones de la investigación de Vohs es que vivir en una sociedad llena de factores desencadenantes de dinero de primera calidad podría alejar nuestro comportamiento del altruismo.\nLa preparación, al igual que otros elementos sociales, puede influir en los pensamientos de un individuo y, por lo tanto, en las decisiones, el juicio y el comportamiento, y estos se reflejan en la cultura y afectan en gran medida el tipo de sociedad en la que todos vivimos."
+            },
+            {
+                "title": "Juicios rápidos: cómo la mente toma decisiones rápidas, incluso cuando carece de información suficiente para tomar una decisión racional.",
+                "content": "Imagina que conoces a alguien llamado Ben en una fiesta y te resulta fácil hablar con él. Más tarde, alguien le pregunta si conoce a alguien que quiera contribuir a su caridad. Piensas en Ben, aunque lo único que sabes de él es que es fácil hablar con él.\nEn otras palabras, te gustó un aspecto del personaje de Ben, por lo que asumiste que te gustaría todo lo demás sobre él. A menudo aprobamos o desaprobamos a una persona incluso cuando sabemos poco sobre ella.\nLa tendencia de nuestra mente a simplificar demasiado las cosas sin suficiente información a menudo conduce a errores de juicio. Esto se denomina coherencia emocional exagerada, también conocido como efecto halo: los sentimientos positivos sobre la accesibilidad de Ben hacen que coloques un halo sobre Ben, aunque sepas muy poco sobre él.\nPero esta no es la única forma en que nuestras mentes toman atajos al emitir juicios.\nTambién existe el sesgo de confirmación, que es la tendencia de las personas a estar de acuerdo con la información que respalda sus creencias anteriores, así como a aceptar cualquier información que se les sugiera.\nEsto se puede demostrar si hacemos la pregunta: \"¿James es amigable?\" Los estudios han demostrado que, frente a esta pregunta pero sin otra información, es muy probable que consideremos a James amigable, porque la mente confirma automáticamente la idea sugerida.\nEl efecto halo y el sesgo de confirmación ocurren porque nuestras mentes están ansiosas por emitir juicios rápidos. Pero esto a menudo conduce a errores, no siempre tenemos suficientes datos para realizar un juicio preciso. Nuestras mentes se basan en sugerencias falsas y simplificaciones excesivas para llenar los vacíos en los datos, lo que nos lleva a conclusiones potencialmente erróneas.\nAl igual que la preparación, estos fenómenos cognitivos ocurren sin estar conscientes y afectan nuestras elecciones, juicios y acciones."
+            },
+            {
+                "title": "Heurística: cómo la mente usa atajos para tomar decisiones rápidas.",
+                "content": "A menudo nos encontramos en situaciones en las que necesitamos hacer un juicio rápido. Para ayudarnos a hacer esto, nuestras mentes han desarrollado pequeños atajos para ayudarnos a comprender inmediatamente nuestro entorno. Estos se llaman heurísticos.\nLa mayoría de las veces, estos procesos son muy útiles, pero el problema es que nuestra mente tiende a abusar de ellos. Aplicarlos en situaciones para las que no son adecuados puede llevarnos a cometer errores. Para comprender mejor qué son las heurísticas y qué errores pueden provocar, podemos examinar dos de sus muchos tipos: la heurística de sustitución y la heurística de disponibilidad.\nLa heurística de sustitución es donde respondemos una pregunta más fácil que la que realmente se planteó.\nTome esta pregunta, por ejemplo: “Esa mujer es candidata a sheriff. ¿Qué tan exitosa será ella en el cargo? \" Sustituimos automáticamente la pregunta que se supone que debemos responder por una más fácil, como, \"¿Esta mujer parece alguien que será un buen sheriff?\"\nEsta heurística significa que en lugar de investigar los antecedentes y las políticas del candidato, simplemente nos hacemos la pregunta mucho más fácil de si esta mujer coincide con nuestra imagen mental de un buen alguacil. Desafortunadamente, si la mujer no se ajusta a nuestra imagen de sheriff, podríamos rechazarla, incluso si tiene años de experiencia en la lucha contra el crimen que la convierten en la candidata ideal.\nA continuación, está la heurística de disponibilidad, que es donde sobrestima la probabilidad de algo que escucha con frecuencia o que le resulta fácil de recordar.\nPor ejemplo, los problemas cerebrovasculares causan muchas más muertes que los accidentes, pero un estudio encontró que el 80 por ciento de los encuestados consideraba que una muerte accidental era un destino más probable. Esto se debe a que escuchamos más sobre muertes accidentales en los medios de comunicación, y porque nos causan una impresión más fuerte; recordamos horribles muertes accidentales con más facilidad que las muertes por derrames cerebrales, por lo que podemos reaccionar de manera inapropiada a estos peligros. "
+            },
+            {
+                "title": "Sin cabeza para los números: por qué nos cuesta entender las estadísticas y cometemos errores evitables debido a ello.",
+                "content": " ¿Cómo puedes hacer predicciones sobre si sucederán ciertas cosas?\nUna forma eficaz es tener en cuenta la tasa base. Esto se refiere a una base estadística, en la que se basan otras estadísticas. Por ejemplo, imagine que una gran empresa de taxis tiene un 20% de taxis amarillos y un 80% de taxis rojos. Eso significa que la tarifa base para los taxis amarillos es del 20 por ciento y la tarifa base para los taxis rojos es del 80 por ciento. Si pide un taxi y quiere adivinar su color, recuerde las tarifas base y hará una predicción bastante precisa.\nPor lo tanto, siempre debemos recordar la tasa base al predecir un evento, pero desafortunadamente esto no sucede. De hecho, el descuido de la tasa base es extremadamente común.\nUna de las razones por las que nos encontramos ignorando la tasa base es que nos enfocamos en lo que esperamos más que en lo que es más probable. Por ejemplo, imagina esos taxis de nuevo: si vieras pasar cinco taxis rojos, probablemente comenzarías a sentir que es muy probable que el próximo sea amarillo para variar. Pero no importa cuántos taxis de cualquier color pasen, la probabilidad de que el próximo taxi sea rojo seguirá siendo de alrededor del 80 por ciento, y si recordamos la tarifa base, deberíamos darnos cuenta de esto. Pero, en cambio, tendemos a centrarnos en lo que esperamos ver, un taxi amarillo, por lo que es probable que nos equivoquemos.\nEl descuido de la tasa base es un error común relacionado con el problema más amplio de trabajar con estadísticas. También luchamos por recordar que todo vuelve a su media. Este es el reconocimiento de que todas las situaciones tienen su estado promedio, y las variaciones de ese promedio eventualmente se inclinarán hacia la base.\nPor ejemplo, si un delantero de fútbol que promedia cinco goles por mes marca diez goles en septiembre, su entrenador estará extasiado; pero si luego marca unos cinco goles por mes durante el resto del año, su entrenador probablemente el criticará por no continuar con su “buena racha”. Sin embargo, la delantera no se merecería esta crítica porque solo está ¡Regresando a la media!"
+            },
+            {
+                "title": "Pasado imperfecto: por qué recordamos eventos en retrospectiva en lugar de desde la experiencia.",
+                "content": "Nuestras mentes no recuerdan las experiencias de una manera sencilla. Tenemos dos aparatos diferentes, llamados yoes de memoria, los cuales recuerdan situaciones de manera diferente.\nPrimero, está el yo que experimenta, que registra cómo nos sentimos en el momento presente. Hace la pregunta: \"¿Cómo se siente ahora?\"\nLuego está el yo que recuerda, que registra cómo se desarrolló todo el evento después del hecho. Pregunta: \"¿Cómo fue en general?\"\nEl yo que experimenta da un relato más preciso de lo que ocurrió, porque nuestros sentimientos durante una experiencia son siempre los más precisos. Pero el yo que recuerda, que es menos exacto porque registra los recuerdos una vez terminada la situación, domina nuestra memoria.\nHay dos Razones por las que el yo que recuerda domina al yo que experimenta. La primera de ellas se llama negligencia de la duración, donde ignoramos la duración total del evento a favor de un recuerdo particular de él. La segunda es la regla del pico-final, donde sobreenfatizamos lo que ocurre al final de un evento.\nPara un ejemplo de este dominio del yo recordatorio, tome este experimento, que midió los recuerdos de las personas de una colonoscopia dolorosa. Antes de la colonoscopia, las personas se dividieron en dos grupos: los pacientes de un grupo recibieron un largo tratamiento, mientras que en el otro grupo se les dio procedimientos mucho más cortos, pero donde el nivel de dolor aumentó hacia el final.\nUno pensaría que la mayor parte de los pacientes felices serían aquellos que soportaron el proceso más largo, ya que su dolor se mantuvo por más tiempo. Esto fue ciertamente lo que sintieron en ese momento. Durante el proceso, cuando se le preguntó a cada paciente sobre el dolor, su yo experimentador dio una respuesta precisa: los que se sometieron a los procedimientos más largos se sintieron peor. Sin embargo, después de la experiencia, cuando el yo recordatorio se hizo cargo, aquellos que pasaron por el proceso más corto con el final más doloroso sintieron lo peor. Esta encuesta nos ofrece un claro ejemplo de negligencia en la duración, la regla del final del pico y nuestra memoria defectuosa."
+            },
+            {
+                "title": "Mente sobre sustancia: cómo ajustar el enfoque de nuestra mente puede afectar dramáticamente nuestros pensamientos y comportamientos.",
+                "content": "Nuestras mentes utilizan diferentes cantidades de energía según la tarea. Cuando no hay necesidad de movilizar la atención y se necesita poca energía, estamos en un estado de facilidad cognitiva. Sin embargo, cuando nuestras mentes deben movilizar la atención, utilizan más energía y entran en un estado de tensión cognitiva.\nEstos cambios en los niveles de energía del cerebro tienen efectos dramáticos sobre cómo nos comportamos.\nEn un estado de facilidad cognitiva, el intuitivo Sistema 1 está a cargo de nuestras mentes y el lógico y más exigente Sistema 2 se debilita. Esto significa que somos más intuitivos, creativos y felices, pero también es más probable que cometamos errores.\nEn un estado de tensión cognitiva, nuestra conciencia está más elevada y, por lo tanto, el Sistema 2 se hace cargo. El Sistema 2 está mejor preparado para verificar nuestros juicios que el Sistema 1, por lo que, aunque somos mucho menos creativos, cometeremos menos errores.\nPuede influir conscientemente en la cantidad de energía que utiliza la mente para ponerse en el estado de ánimo adecuado para determinadas tareas. Si desea que un mensaje sea persuasivo, por ejemplo, intente promover la facilidad cognitiva.\nUna forma de hacer esto es exponernos a información repetitiva. Si la información se nos repite o se hace más memorable, se vuelve más persuasiva. Esto se debe a que nuestras mentes han evolucionado para reaccionar positivamente cuando se exponen repetidamente a los mismos mensajes claros. Cuando vemos algo familiar, entramos en un estado de facilidad cognitiva.\nLa tensión cognitiva, por otro lado, nos ayuda a tener éxito en cosas como problemas estadísticos.\nPodemos entrar en este estado exponiéndonos a información que se nos presenta de manera confusa, por ejemplo, a través de un tipo de letra difícil de leer. Nuestras mentes se aumentan sus niveles de energía en un esfuerzo por comprender el problema y, por lo tanto, es menos probable que simplemente nos demos por vencidos."
+            },
+            {
+                "title": "Arriesgarse: la forma en que se nos presentan las probabilidades afecta nuestro juicio de riesgo.",
+                "content": "La forma en que juzgamos las ideas y abordamos los problemas está fuertemente determinada por la forma en que se nos expresan. Los cambios leves en los detalles o el enfoque de una afirmación o pregunta pueden alterar drásticamente la forma en que lo abordamos.\nUn gran ejemplo de esto se puede encontrar en cómo evaluamos el riesgo.\nPuede pensar que una vez que podamos determinar la probabilidad de que ocurra un riesgo, todos lo abordarán de la misma manera. Sin embargo, este no es el caso. Incluso para probabilidades cuidadosamente calculadas, el simple hecho de cambiar la forma en que se expresa la cifra puede cambiar la forma en que la enfocamos.\nPor ejemplo, la gente considerará que un evento raro tiene más probabilidades de ocurrir si se expresa en términos de frecuencia relativa en lugar de una probabilidad estadística.\nEn lo que se conoce como el experimento del Sr. Jones, se preguntó a dos grupos de profesionales psiquiátricos si era seguro dar de alta al Sr. Jones del hospital psiquiátrico. Al primer grupo se le dijo que pacientes como el Sr. Jones tenían un /\"10 por ciento de probabilidad de cometer un acto de violencia\", y al segundo grupo se le dijo que \"de cada 100 pacientes similares al Sr. Jones, se estima que 10 cometen un acto de violencia.\" De los dos grupos, casi el doble de encuestados en el segundo grupo negaron su alta.\nOtra forma en que nuestra atención se distrae de lo que es estadísticamente relevante se llama negligencia del denominador. Esto ocurre cuando ignoramos las estadísticas simples en favor de imágenes mentales vívidas que influyen en nuestras decisiones.\nTome estas dos afirmaciones: \"Este medicamento protege a los niños de la enfermedad X pero tiene un 0,001 por ciento de probabilidad de desfiguración permanente\" en comparación con \"Uno de cada 100.000 niños que toman este medicamento quedará desfigurado permanentemente\". Aunque ambas afirmaciones son iguales, la última afirmación nos recuerda a un niño desfigurado y es mucho más influyente, por lo que nos haría menos propensos a administrar la droga."
+            },
+            {
+                "title": "No robots: por qué no tomamos decisiones basadas puramente en el pensamiento racional.",
+                "content": "¿Cómo tomamos decisiones como individuos?\nDurante mucho tiempo, un grupo poderoso e influyente de economistas sugirió que tomáramos decisiones basadas puramente en argumentos racionales. Argumentaron que todos tomamos decisiones de acuerdo con la teoría de la utilidad, que establece que cuando los individuos toman decisiones, miran solo los hechos racionales y eligen la opción con el mejor resultado general para ellos, es decir, la mayor utilidad.\nPor ejemplo, la teoría de la utilidad postularía este tipo de afirmación: si te gustan más las naranjas que los kiwis, también tendrás un 10 por ciento de posibilidades de ganar una naranja sobre un 10 por ciento de posibilidades de ganar un kiwi.\nParece obvio, ¿verdad?\nEl grupo de economistas más influyente en este campo se centró en la Escuela de Economía de Chicago y su académico más famoso Milton Friedman. Utilizando la teoría de la utilidad, la Escuela de Chicago argumentó que los individuos en el mercado son tomadores de decisiones ultraracionales, a quienes el economista Richard Thaler y el abogado Cass Sunstein más tarde llamaron Econs. Como Econs, cada individuo actúa de la misma manera, valorando los bienes y servicios en función de sus necesidades racionales. Es más, los Econs también valoran su riqueza de forma racional, sopesando solo la utilidad que les proporciona.\nAsí que imagina a dos personas, John y Jenny, que tienen fortunas de $ 5 millones. Según la teoría de la utilidad, tienen la misma riqueza, lo que significa que ambos deberían estar igualmente felices con sus finanzas.\nPero ¿y si complicamos un poco las cosas? Digamos que sus fortunas de $ 5 millones son el resultado final de un día en el casino, y los dos tuvieron puntos de partida muy diferentes: John entró con solo $ 1 millón y quintuplicó su dinero, mientras que Jenny ingresó con $ 9 millones que se redujeron. hasta $ 5 millones. ¿Sigues pensando que John y Jenny están igualmente felices con sus $ 5 millones?\nImprobable. Entonces, claramente, hay algo más en la forma en que valoramos las cosas que la pura utilidad.\nComo veremos en el siguiente blink, dado que no todos vemos la utilidad tan racionalmente como piensa la teoría de la utilidad, podemos tomar decisiones extrañas y aparentemente irracionales."
+            },
+            {
+                "title": "Intuicion: por qué, en lugar de tomar decisiones basadas únicamente en consideraciones racionales, a menudo nos dejamos influir por factores emocionales.",
+                "content": "Si la teoría de la utilidad no funciona, ¿qué funciona?\nUna alternativa es la teoría prospectiva, desarrollada por el autor.\nLa teoría prospectiva de Kahneman desafía la teoría de la utilidad al mostrar que cuando tomamos decisiones, no siempre actuamos de la manera más racional.\nImagine estos dos escenarios, por ejemplo: en el primer escenario, le dan $ 1,000 y luego debe elegir entre recibir $ 500 definitivos o tomar un 50 por ciento de posibilidades de ganar otros $ 1,000. En el segundo escenario, le dan $ 2,000 y luego debe elegir entre una pérdida segura de $ 500 o una probabilidad del 50 por ciento de perder $ 1,000.\nSi hiciéramos elecciones puramente racionales, haríamos la misma elección en ambos casos. Pero este no es el caso. En el primer caso, la mayoría de la gente opta por la opción segura, mientras que en el segundo caso, la mayoría de la gente apuesta.\nLa teoría de las perspectivas ayuda a explicar por qué este es el caso. Destaca al menos dos razones por las que no siempre actuamos racionalmente. Ambos presentan nuestra aversión a las pérdidas: el hecho de que tememos las pérdidas más de lo que valoramos las ganancias.\nLa primera razón es que valoramos las cosas en función de puntos de referencia. Comenzar con $ 1,000 o $ 2,000 en los dos escenarios cambia si estamos dispuestos a apostar, porque el punto de partida afecta cómo valoramos nuestra posición. El punto de referencia en el primer escenario es $ 1,000 y $ 2,000 en el segundo, lo que significa que terminar en $ 1,500 se siente como una victoria en el primero, pero una pérdida desagradable en el segundo. Aunque nuestro razonamiento aquí es claramente irracional, entendemos el valor tanto por nuestro punto de partida como por el valor objetivo real en ese momento.\nEn segundo lugar, estamos influenciados por el principio de sensibilidad decreciente: el valor que percibimos puede ser diferente de su valor real. Por ejemplo, pasar de $ 1,000 a $ 900 no se siente tan mal como pasar de $ 200 a $ 100, a pesar de que el valor monetario de ambas pérdidas es igual. De manera similar, en nuestro ejemplo, el valor percibido perdido cuando se pasa de $ 1,500 a $ 1,000 es mayor que cuando se pasa de $ 2,000 a $ 1,500."
+            },
+            {
+                "title": "Imágenes falsas: por qué la mente construye imágenes completas para explicar el mundo, pero conducen a un exceso de confianza y errores.",
+                "content": "Para comprender situaciones, nuestras mentes utilizan naturalmente la coherencia cognitiva; construimos imágenes mentales completas para explicar ideas y conceptos. Por ejemplo, tenemos muchas imágenes en nuestro cerebro del clima. Tenemos una imagen para, digamos, el clima de verano, que podría ser una imagen de un sol brillante y caliente bañándonos en calor.\nAdemás de ayudarnos a comprender las cosas, también confiamos en estas imágenes a la hora de tomar una decisión.\nCuando tomamos decisiones, nos referimos a estas imágenes y construimos nuestras suposiciones y conclusiones basadas en ellas. Por ejemplo, si queremos saber qué ropa usar en verano, basamos nuestras decisiones en nuestra imagen del clima de esa temporada.\nEl problema es que confiamos demasiado en estas imágenes. Incluso cuando las estadísticas y los datos disponibles no están de acuerdo con nuestras imágenes mentales, dejamos que las imágenes nos guíen. En verano, el pronosticador del tiempo puede predecir un clima relativamente fresco, pero es posible que aún salgas con pantalones cortos y una camiseta, ya que eso es lo que tu imagen mental del verano te dice que te pongas. ¡Entonces puede terminar tiritando afuera!\nEn resumen, confiamos en exceso en nuestras imágenes mentales, a menudo defectuosas. Pero hay formas de superar este exceso de confianza y comenzar a hacer mejores predicciones.\nUna forma de evitar errores es utilizar el pronóstico de clases de referencia. En lugar de emitir juicios basados en imágenes mentales bastante generales, utilice ejemplos históricos específicos para hacer un pronóstico más preciso. Por ejemplo, piense en la ocasión anterior en la que salió cuando era un día frío de verano. ¿Qué te pusiste entonces?\nAdemás, puede diseñar una política de riesgo a largo plazo que planifique medidas específicas en caso de éxito o fracaso en la previsión. Mediante la preparación y la protección, puede confiar en la evidencia en lugar de en imágenes mentales generales y hacer pronósticos más precisos. En el caso de nuestro ejemplo del clima, esto podría significar llevar un suéter solo para estar seguro."
+            },
+            {
+                "title": "Resumen final",
+                "content": "El mensaje clave de este libro es:\nPensar, Rápido y Lento nos muestra que nuestras mentes contienen dos sistemas. El primero actúa de manera instintiva y requiere poco esfuerzo; el segundo es más deliberado y requiere mucha más atención. Nuestros pensamientos y acciones varían según cuál de los dos sistemas controle nuestro cerebro en ese momento.\nConsejos prácticos!\nRepita el mensaje!\nLos mensajes son más persuasivos cuando estamos expuestos repetidamente a ellos. Esto probablemente se deba a que evolucionamos de una manera que hizo que la exposición repetida a cosas que no tenían consecuencias negativas pareciera inherentemente buena.\nNo se deje influenciar por eventos estadísticos raros que se informan en exceso en los periódicos.\nLos desastres y otros eventos son una parte importante de nuestra historia, pero a menudo sobrestimamos su probabilidad estadística debido a las vívidas imágenes que asociamos con ellos en los medios de comunicación.\nEres más creativo e intuitivo cuando estás de mejor humor.\nCuando estás de mejor humor, la parte de la mente que está alerta y analítica tiende a relajarse. Eso cede el control de tu mente al sistema de pensamiento más intuitivo y rápido, lo que también te hace más creativo."
+            }
+        ]
     },
     {
         "title": "The Power of Habit",
         "author": "Charles Duhigg",
         "imageUrl": "the-power-of-habit.jpg",
-        "id": 2
+        "id": 2,
+        "finished": false,
+        "data": [
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            }
+        ]
     },
     {
         "title": "Getting Things Done",
         "author": "David Allen",
-        "imageUrl": "getting-things-done.jpg",
-        "id": 3
+        "imageUrl": "getting-things-done.png",
+        "id": 3,
+        "finished": false,
+        "data": [
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            }
+        ]
     },
     {
         "title": "Flow",
         "author": "Mihály Csíkszentmihályi",
         "imageUrl": "flow.png",
-        "id": 4
+        "id": 4,
+        "finished": true,
+        "data": [
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            },
+            {
+                "title": "",
+                "content": " "
+            }
+        ]
     }
 ]
