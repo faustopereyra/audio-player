@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Thinking Fast and Slow",
+        "author": "Daniel Kahneman",
+        "imageUrl": "thinking-fast-and-slow.jpg",
+        "id": 1
+    },
+    {
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "imageUrl": "the-power-of-habit.jpg",
+        "id": 2
+    },
+    {
+        "title": "Getting Things Done",
+        "author": "David Allen",
+        "imageUrl": "getting-things-done.jpg",
+        "id": 3
+    },
+    {
+        "title": "Flow",
+        "author": "Mihály Csíkszentmihályi",
+        "imageUrl": "flow.png",
+        "id": 4
+    }
+]

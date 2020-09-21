@@ -5,9 +5,15 @@
   }
   
   .card--top{
-    background-color: red;
     height: 215px;
     width: 215px;
+  }
+
+  .card--top img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
   }
   
   .card--bottom{

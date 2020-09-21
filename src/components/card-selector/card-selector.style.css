@@ -1,0 +1,17 @@
+.card-selector{
+    margin-bottom: 75px;
+    margin-top: 70px;
+    display: flex
+  }
+  
+  .card-selector--reading{
+    padding-right: 75px;
+    padding-bottom: 25px;
+    border-bottom: #2CE080 solid 2px;
+  }
+  
+  .card-selector--finished{
+    padding-right: 75px;
+    color:#2CE080;
+    border-bottom: #c4c4c4 solid 2px;
+  }
