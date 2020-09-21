@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color:#03314B;
+  --secondary-color:#2CE080;
+  --background:#f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+[data-theme="dark"] {
+  --primary-color:#f2f2f2;
+  --secondary-color:#03314B;
+  --background:#03314B;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  background-color: var(--background);
+  color: var(--primary-color);
 }
 
-.App-link {
-  color: #61dafb;
+/*Library*/
+h1 {
+  color: var(--primary-color);
+  font-size: 36px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Book Title*/
+h2 {
+  color: #2CE080;
+  font-size: 36px;
+}
+
+/*Card Book Title*/
+h3 {
+  color: #000000;
+  font-size: 16px;
+}
+
+/*Card Book Author*/
+h4 {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+
+p {
+  color: var(--primary-color);
+  font-size: 16px;
 }

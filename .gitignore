@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/light-dark-mode
+/music-player
 
 # testing
 /coverage
