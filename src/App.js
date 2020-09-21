@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Library from "library/library.component.jsx"
-import Book from "book/book.component.jsx"
+import Library from "layouts/library/library.component.jsx"
+import Book from "layouts/book/book.component.jsx"
 
 import './App.css';
 
