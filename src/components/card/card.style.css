@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .card--top{
+    background-color: red;
+    height: 215px;
+    width: 215px;
+  }
+  
+  .card--bottom{
+    background-color: blue;
+    height: 150px;
+    width: 215px;
+  }
