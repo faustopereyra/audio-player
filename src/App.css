@@ -5,20 +5,24 @@
 }
 
 :root {
-  --primary-color:#03314B;
-  --secondary-color:#2CE080;
-  --background:#f2f2f2;
+  --primary-color:#f2f2f2;
+  --secondary-color:#f2f2f2;
+  --background:#03314B;
 }
 
 [data-theme="dark"] {
-  --primary-color:#f2f2f2;
-  --secondary-color:#03314B;
-  --background:#03314B;
+  --primary-color:#03314B;
+  --secondary-color:#2CE080;
+  --background:#f2f2f2;
+  
 }
 
 body{
   background-color: var(--background);
   color: var(--primary-color);
+  font-family: cera pro;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /*Library*/
@@ -48,4 +52,5 @@ h4 {
 p {
   color: var(--primary-color);
   font-size: 16px;
+  font-family: tisapro;
 }

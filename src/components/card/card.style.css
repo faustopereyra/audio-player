@@ -1,13 +1,18 @@
+@import url("../../App.css");
+@import url("../card-grid/card-grid.style.css");
+
 .card {
-    display: flex;
-    flex-direction: column;
-    
-  }
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
   
-  .card--top{
-    height: 215px;
-    width: 215px;
-  }
+.card--top{
+  height: 225px;
+  width: 225px;
+   
+}
 
   .card--top img {
     width: 100%;
@@ -17,7 +22,18 @@
   }
   
   .card--bottom{
-    background-color: blue;
+    background-color: var(--secondary-color);
     height: 150px;
-    width: 215px;
+    width: 226px;
+    border: 1px solid #4f4f4f;
+    border-top: 0px;
+    border-radius: 0px 0px 2px 2px;
+  }
+
+  .title{
+    margin: 10px 10px 0px 10px;
+  }
+
+  .author{
+    margin: 10px 10px 0px 10px;
   }

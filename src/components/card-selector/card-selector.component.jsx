@@ -5,8 +5,8 @@ import "./card-selector.style.css"
 const CardSelector = () => {
     return (
         <div className="card-selector">
-            <div>Currently Reading</div>
-            <div> Finished</div>
+            <div className="card-selector--reading">Currently Reading</div>
+            <div className="card-selector--finished"> Finished</div>
         </div>
     )
 }
