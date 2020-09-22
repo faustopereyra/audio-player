@@ -1,0 +1,12 @@
+.audio-player-layer{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -21,7 +21,6 @@ body{
   background-color: var(--background);
   color: var(--primary-color);
   font-family: cera pro;
-  max-width: 1000px;
   margin: auto;
 }
 
@@ -42,13 +41,17 @@ h2 {
 /*Card Book Title*/
 h3 {
   color: #000000;
-  font-size: 16px;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
 }
 
 /*Card Book Author*/
 h4 {
   color: #4f4f4f;
-  font-size: 14px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
 }
 
 p {
@@ -56,4 +59,8 @@ p {
   font-size: 20px;
   line-height: 160%;
   font-family: tisapro;
+}
+
+.blur {
+  filter: blur(10px);
 }

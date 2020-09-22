@@ -3,6 +3,7 @@ import React from "react"
 import MenuToggle from "../../components/menu-toggle/menu-toggle.component"
 import AudioToggle from "../../components/audio-toggle/audio-toggle.component"
 import BookContent from "../../components/book-content/book-content.component"
+import AudioPlayerLayer from "../audio-player/audio-player-layer.component"
 
 import "./book.style.css"
 
@@ -14,6 +15,7 @@ const Book = ({ theme }) => {
                 <AudioToggle theme={theme} />
             </div>
             <BookContent />
+            <AudioPlayerLayer />
         </div>
     )
 }

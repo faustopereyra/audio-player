@@ -1,0 +1,19 @@
+.player-controls {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: -15px;
+    left: 85px;
+    width: 125px;
+  }
+  
+  .control img {
+    width: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .control:hover {
+    transform: scale(1.1);
+  }
+  
