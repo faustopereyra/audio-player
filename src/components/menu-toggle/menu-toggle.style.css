@@ -1,0 +1,10 @@
+.menu-toggle {
+    cursor: pointer;
+    margin: 25px 20px;
+    margin-top: 50px;
+}
+
+.menu-toggle img {
+    width: 40px;
+    height: auto;
+}

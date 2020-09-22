@@ -3,7 +3,7 @@ import React from "react"
 import "./card.style.css"
 
 const Card = ({ book }) => {
-    console.log(book.data[0].content)
+    console.log(book.data)
     return (
         <div className="card">
             <div className="card--top"> <img src={require(`../../media/book-art/${book.imageUrl}`)} alt={book.title} /></div>

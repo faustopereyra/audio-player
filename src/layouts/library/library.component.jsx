@@ -10,7 +10,7 @@ const Library = () => {
     return (
         <div className="library">
             <h1>Library</h1>
-            <DarkModeToggle />
+
             <CardSelector />
             <CardGrid />
         </div>

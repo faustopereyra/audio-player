@@ -28,6 +28,7 @@ body{
 /*Library*/
 h1 {
   color: var(--primary-color);
+  
   font-size: 36px;
 }
 
@@ -35,6 +36,7 @@ h1 {
 h2 {
   color: #2CE080;
   font-size: 36px;
+  margin: 30px 0;
 }
 
 /*Card Book Title*/
@@ -51,6 +53,7 @@ h4 {
 
 p {
   color: var(--primary-color);
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 160%;
   font-family: tisapro;
 }

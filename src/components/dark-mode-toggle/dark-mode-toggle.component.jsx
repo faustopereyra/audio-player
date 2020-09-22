@@ -2,9 +2,15 @@ import React from "react"
 
 import "./dark-mode-toggle.style.css"
 
-const DarkModeToggle = () => {
+const DarkModeToggle = ({ setTheme }) => {
     const toggleDarkMode = (e) => {
-        e.target.checked ? document.documentElement.setAttribute("data-theme", "dark") : document.documentElement.setAttribute("data-theme", "light")
+        if (e.target.checked) {
+            document.documentElement.setAttribute("data-theme", "dark")
+            setTheme(true)
+        } else {
+            document.documentElement.setAttribute("data-theme", "light")
+            setTheme(false)
+        }
     }
     return (
         <div className="toggle">

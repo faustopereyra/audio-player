@@ -1,0 +1,10 @@
+.audio-toggle {
+    cursor: pointer;
+    margin: 25px 20px;
+    margin-top: 45px;
+}
+
+.audio-toggle img {
+    width: 40px;
+    height: auto;
+}
