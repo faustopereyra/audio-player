@@ -1,0 +1,10 @@
+.large-player{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    background: #C4C4C4;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}

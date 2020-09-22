@@ -2,9 +2,13 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+    width: 125px;
+    top: 25px;
+  }
+
+  .layer-player{
     top: -15px;
     left: 85px;
-    width: 125px;
   }
   
   .control img {
