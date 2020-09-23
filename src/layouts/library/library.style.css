@@ -1,3 +1,5 @@
 .library{
     margin-top: 50px;
+    margin: auto;
+    max-width: 1000px;
 }

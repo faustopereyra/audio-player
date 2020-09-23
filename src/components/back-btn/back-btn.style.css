@@ -1,0 +1,11 @@
+.back-btn {
+    cursor: pointer;
+    margin: 25px 20px;
+    margin-top: 45px;
+    z-index: 1000;
+}
+
+.back-btn img {
+    width: 40px;
+    height: auto;
+}

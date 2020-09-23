@@ -10,7 +10,6 @@ const AudioToggle = ({ theme }) => {
     } else {
         color = "white"
     }
-    console.log(color)
     return (
         <div className="audio-toggle">
             <img src={require(`../../media/icon/headphones-${color}.png`)} alt="Audio Player" />

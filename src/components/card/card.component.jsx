@@ -2,10 +2,12 @@ import React from "react"
 
 import "./card.style.css"
 
-const Card = ({ book }) => {
-    console.log(book.data)
+const Card = ({ book, setBook }) => {
+    const trigger = () => {
+        setBook.setBook(book.id)
+    }
     return (
-        <div className="card">
+        <div className="card" onClick={trigger}>
             <div className="card--top"> <img src={require(`../../media/book-art/${book.imageUrl}`)} alt={book.title} /></div>
             <div className="card--bottom">
                 <div className="title"> <h3>{book.title}</h3> </div>
