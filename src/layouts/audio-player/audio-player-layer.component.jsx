@@ -3,11 +3,11 @@ import AudioPlayer from "../../components/audio-player/audio-player.component"
 
 import "./audio-player-layer.style.css"
 
-const AudioPlayerLayer = () => {
+const AudioPlayerLayer = ({ book }) => {
     return (
         <div className="audio-player-layer">
-            <AudioPlayer />
-        </div>
+            <AudioPlayer book={book} />
+        </div >
     )
 }
 

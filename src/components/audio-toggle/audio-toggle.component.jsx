@@ -2,7 +2,7 @@ import React from "react"
 
 import "./audio-toggle.style.css"
 
-const AudioToggle = ({ theme }) => {
+const AudioToggle = ({ theme, toggle, state }) => {
     let color
     if (theme) {
 
@@ -11,7 +11,7 @@ const AudioToggle = ({ theme }) => {
         color = "white"
     }
     return (
-        <div className="audio-toggle">
+        <div className="audio-toggle" onClick={() => toggle(!state)}>
             <img src={require(`../../media/icon/headphones-${color}.png`)} alt="Audio Player" />
         </div>
     )

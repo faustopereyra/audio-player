@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./audio-player-controls.style.css"
-const AudioPlayerControls = ({ large }) => {
+const AudioPlayerControls = ({ large, image }) => {
     return (
         <div className={`player-controls ${large ? "" : "layer-player"} `}>
             <div className="control backward"><img src={require(`../../media/icon/fast-backward.png`)} alt="backward" /></div>

@@ -5,9 +5,10 @@ import AudioPlayerControls from "../audio-player-controls/audio-player-controls.
 
 import "./audio-player-large.style.css"
 
-const AudioPlayerLarge = () => {
+const AudioPlayerLarge = ({ toggleAudio, book }) => {
+
     return (
-        <div className="large-player">
+        <div className={`large-player ${toggleAudio ? "blur" : ""} `}>
             <AudioPlayerControls large={true} />
             <AudioPlayerBar />
         </div>
