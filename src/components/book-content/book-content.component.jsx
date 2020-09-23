@@ -1,9 +1,9 @@
 import React from "react"
 
 import "./book-content.style.css"
-const BookContent = ({ book }) => {
-    const content = book.data[1].content
-    const title = book.data[1].title
+const BookContent = ({ book, currentBlink }) => {
+    const content = book.data[currentBlink].content
+    const title = book.data[currentBlink].title
 
     return (
         <div className="book-content">

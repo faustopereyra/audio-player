@@ -1,4 +1,10 @@
 .book-content-icon{
     display: flex;
-margin-left: 125px;
+    margin-left: 125px;
+}
+
+.book-content-layout{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
 }
