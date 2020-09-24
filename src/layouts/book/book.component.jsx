@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 import MenuToggle from "../../components/menu-toggle/menu-toggle.component"
 import AudioToggle from "../../components/audio-toggle/audio-toggle.component"
@@ -14,6 +14,23 @@ const Book = ({ theme, book, setBook }) => {
 
     const [blink, setBlink] = useState(0)
     const [toggleAudio, setToggleAudio] = useState(false)
+    const [isPlaying, setIsPlaying] = useState(false)
+    const [audioBook] = useState(new Audio(require(`../../media/audio/${book.audioUrl}`)));
+
+    const [AudioCurrentTime, setAudioCurrentTime] = useState(0)
+
+    useEffect(() => {
+        isPlaying ? audioBook.play() : audioBook.pause();
+    },
+        [isPlaying, audioBook.currentTime]
+    );
+
+    const setCurrentTime = () => {
+        setAudioCurrentTime(audioBook.currentTime)
+    }
+
+    audioBook.ontimeupdate = setCurrentTime
+
 
     return (
         <div className="book">
@@ -27,8 +44,8 @@ const Book = ({ theme, book, setBook }) => {
                 <BookContent book={book} currentBlink={blink} />
                 <ChangeBlinkBtn type="next" theme={theme} currentBlink={blink} setBlink={setBlink} totalBlinks={book.data.length} />
             </div>
-            <AudioPlayerLarge book={book} toggleAudio={toggleAudio} />
-            {toggleAudio ? <AudioPlayerLayer book={book} /> : ""}
+            <AudioPlayerLarge duration={audioBook.duration} toggleAudio={toggleAudio} isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentTime={AudioCurrentTime} audioBook={audioBook} />
+            {toggleAudio ? <AudioPlayerLayer book={book} isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioBook={audioBook} currentTime={AudioCurrentTime} /> : ""}
 
         </div>
     )

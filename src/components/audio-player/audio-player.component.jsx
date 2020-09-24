@@ -5,12 +5,15 @@ import AudioPlayerBar from "../audio-player-bar/audio-player-bar.component"
 import AudioPlayerControls from "../audio-player-controls/audio-player-controls.component"
 
 import "./audio-player.style.css"
-const AudioPlayer = ({ book }) => {
+const AudioPlayer = ({ book, isPlaying, setIsPlaying, audioBook, currentTime }) => {
+    const { duration } = audioBook;
+
+    console.log(duration, currentTime)
     return (
         <div className="player-container">
             <AudioPlayerMedia book={book} />
-            <AudioPlayerBar />
-            <AudioPlayerControls />
+            <AudioPlayerBar duration={duration} currentTime={currentTime} audioBook={audioBook} />
+            <AudioPlayerControls isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioBook={audioBook} />
         </div>
     )
 }

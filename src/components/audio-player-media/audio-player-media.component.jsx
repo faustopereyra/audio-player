@@ -3,7 +3,6 @@ import React from "react"
 import "./audio-player-media.style.css"
 
 const AudioPlayerMedia = ({ book }) => {
-    console.log()
     return (
         <div>
             <div className="img-container"><img src={require(`../../media/book-art/${book.imageUrl}`)} alt="flow" /></div>

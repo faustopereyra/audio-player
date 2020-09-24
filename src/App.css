@@ -20,7 +20,7 @@
 body{
   background-color: var(--background);
   color: var(--primary-color);
-  font-family: cera pro;
+  font-family: "cera pro";
   margin: auto;
 }
 
@@ -58,7 +58,7 @@ p {
   color: var(--primary-color);
   font-size: 20px;
   line-height: 160%;
-  font-family: tisapro;
+  font-family: "ff tisa web pro";
   margin-bottom: 125px;
 }
 
