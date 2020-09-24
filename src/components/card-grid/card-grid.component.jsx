@@ -4,11 +4,11 @@ import Card from "../card/card.component.jsx"
 
 import userBooks from "../../books.json"
 
-const CardGrid = (setBook) => {
+const CardGrid = ({ setBook, finish }) => {
     return (
         <div className="card-grid" >
             {userBooks ? userBooks.map((book) => (
-                !book.finished ?
+                book.finished === finish ?
                     <Card book={book} key={book.id} setBook={setBook} /> : ""
             )) : ""}
         </div>

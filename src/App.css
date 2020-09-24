@@ -27,7 +27,7 @@ body{
 /*Library*/
 h1 {
   color: var(--primary-color);
-  
+  margin-top: 45px;
   font-size: 36px;
 }
 

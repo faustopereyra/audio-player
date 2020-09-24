@@ -1,9 +1,7 @@
-import React, { useRef } from "react"
+import React from "react"
 
 import "./audio-player-bar.style.css"
 const AudioPlayerBar = ({ duration, currentTime, audioBook }) => {
-
-    const bar = useRef()
 
     //Calculate Total duration
     const durationMinutes = Math.floor(duration / 60);
@@ -25,11 +23,6 @@ const AudioPlayerBar = ({ duration, currentTime, audioBook }) => {
 
     const setProgressBar = (e) => {
         if (duration) {
-            console.log(e.target.clientWidth)
-
-            console.log(e.nativeEvent.offsetX)
-            console.log(e.nativeEvent.offsetWidth)
-
             const width = e.target.clientWidth
             const clickX = e.nativeEvent.offsetX
             audioBook.currentTime = (clickX / width) * duration

@@ -4,7 +4,7 @@ import "./card.style.css"
 
 const Card = ({ book, setBook }) => {
     const trigger = () => {
-        setBook.setBook(book.id)
+        setBook(book.id)
     }
     return (
         <div className="card" onClick={trigger}>

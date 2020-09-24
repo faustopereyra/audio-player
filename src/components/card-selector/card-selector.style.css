@@ -2,16 +2,25 @@
     margin-bottom: 75px;
     margin-top: 50px;
     display: flex;
+    cursor: pointer;
   }
   
   .card-selector--reading{
     padding-right: 75px;
     padding-bottom: 25px;
-    color:#2CE080;
-    border-bottom: #2CE080 solid 2px;
+    
   }
   
   .card-selector--finished{
     padding-right: 75px;
+    
+  }
+
+  .green-filter{
+    color:#2CE080;
+    border-bottom: #2CE080 solid 2px;
+  }
+
+  .grey-filter{
     border-bottom: #c4c4c4 solid 2px;
   }

@@ -8,7 +8,6 @@ import "./audio-player.style.css"
 const AudioPlayer = ({ book, isPlaying, setIsPlaying, audioBook, currentTime }) => {
     const { duration } = audioBook;
 
-    console.log(duration, currentTime)
     return (
         <div className="player-container">
             <AudioPlayerMedia book={book} />

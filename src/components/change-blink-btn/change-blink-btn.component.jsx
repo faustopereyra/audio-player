@@ -8,7 +8,6 @@ const ChangeBlinkContentBtn = ({ theme, type, currentBlink, setBlink, totalBlink
     theme ? color = "dark" : color = "light"
 
     const trigger = () => {
-        console.log(currentBlink, type)
         if (type === "prev") {
             if (currentBlink !== 0) {
                 setBlink(currentBlink - 1)

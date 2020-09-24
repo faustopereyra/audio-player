@@ -9,7 +9,7 @@ const AudioPlayerLarge = ({ toggleAudio, isPlaying, setIsPlaying, currentTime, s
 
     return (
         <div className={`large-player ${toggleAudio ? "blur" : ""} `}>
-            <AudioPlayerControls large={true} isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
+            <AudioPlayerControls large={true} isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioBook={audioBook} />
             <AudioPlayerBar currentTime={currentTime} setCurrentTime={setCurrentTime} audioBook={audioBook} duration={duration} />
         </div>
     )

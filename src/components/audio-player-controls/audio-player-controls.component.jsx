@@ -18,7 +18,6 @@ const AudioPlayerControls = ({ large, isPlaying, setIsPlaying, audioBook }) => {
         }
     }
 
-    //console.log(isPlaying)
     return (
         <div className={`player-controls ${large ? "" : "layer-player"} `}>
             <div className="control backward" onClick={backward} ><img src={require(`../../media/icon/fast-backward.png`)} alt="backward" /></div>

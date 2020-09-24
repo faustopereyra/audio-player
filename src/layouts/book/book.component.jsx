@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-import MenuToggle from "../../components/menu-toggle/menu-toggle.component"
+//import MenuToggle from "../../components/menu-toggle/menu-toggle.component"
 import AudioToggle from "../../components/audio-toggle/audio-toggle.component"
 import BookContent from "../../components/book-content/book-content.component"
 import AudioPlayerLarge from "../../components/audio-player-large/audio-player-large.component"
@@ -20,10 +20,11 @@ const Book = ({ theme, book, setBook }) => {
     const [AudioCurrentTime, setAudioCurrentTime] = useState(0)
 
     useEffect(() => {
+
         isPlaying ? audioBook.play() : audioBook.pause();
-    },
-        [isPlaying, audioBook.currentTime]
-    );
+
+    }, [isPlaying, audioBook]);
+
 
     const setCurrentTime = () => {
         setAudioCurrentTime(audioBook.currentTime)
@@ -31,13 +32,11 @@ const Book = ({ theme, book, setBook }) => {
 
     audioBook.ontimeupdate = setCurrentTime
 
-
     return (
         <div className="book">
             <div className="book-content-icon">
-                <MenuToggle theme={theme} />
                 <AudioToggle theme={theme} toggle={setToggleAudio} state={toggleAudio} />
-                <BackBtn theme={theme} setBook={setBook} />
+                <BackBtn theme={theme} setBook={setBook} setIsPlaying={setIsPlaying} />
             </div>
             <div className={`book-content-layout ${toggleAudio ? "blur" : ""} `}>
                 <ChangeBlinkBtn type="prev" theme={theme} currentBlink={blink} setBlink={setBlink} totalBlinks={book.data.length} />
@@ -53,4 +52,4 @@ const Book = ({ theme, book, setBook }) => {
 
 export default Book
 
-//
+//<MenuToggle theme={theme} />
